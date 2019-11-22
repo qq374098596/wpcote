@@ -1,0 +1,22 @@
+{
+    "name": "wpcote/wpcote",
+    "description": "我的第二个composer",
+    "type": "peoject",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qq374098596",
+            "email": "374098596@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "mycote/mycote": "0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    }
+}
